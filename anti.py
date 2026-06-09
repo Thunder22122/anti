@@ -4,6 +4,7 @@ from discord.ext import commands
 from collections import deque
 from groq import Groq
 import asyncio
+import os
 
 # ========== CONFIGURATION ==========
 USER_TOKEN = os.getenv("TOKEN")
